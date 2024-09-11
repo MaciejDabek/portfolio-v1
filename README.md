@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio
+
+This is a single-page portfolio website that introduces me, showcases my skills
+and projects, and provides a way to contact me.
+
+### Demo
+
+Check out the live site: [Portfolio](https://www.maciejdabek.com/)
+
+## Features
+
+- **Introduction**: Provides a brief overview of who I am and what I do.
+- **Skills Showcase**: Highlights the key technologies and tools I have
+  experience with.
+- **Project Portfolio**: Displays a collection of my best projects with
+  descriptions and links.
+- **Contact Form**: Allows users to reach out to me directly through a contact
+  form.
+
+## Technologies Used
+
+- **Next.js**: React framework for building fast and SEO-friendly websites.
+- **Tailwind CSS**: Utility-first CSS framework for creating custom designs.
 
 ## Getting Started
 
-First, run the development server:
+Follow the instructions below to set up the project on your local machine.
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/portfolio-v1.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd portfolio-v1
+```
+
+3. Install the dependencies:
+
+```bash
+npm install
+```
+
+### Running the Project
+
+To run the project in development mode:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start a local development server. Open your browser and go to
+`http://localhost:3000` to see the project.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Building the Project
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To build the project for production:
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+The build will be optimized and the output will be in the `.next` folder.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file
+for more details.
